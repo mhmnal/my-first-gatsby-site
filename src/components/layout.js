@@ -5,7 +5,8 @@ import {
     heading,
     navLinks,
     navLinkItem,
-    navLinkText
+    navLinkText,
+    paragraphText
   } from './layout.module.css'
 
 const Layout = ({ pageTitle, children }) => {
@@ -23,11 +24,11 @@ const Layout = ({ pageTitle, children }) => {
                 About</Link></li>
         </ul>
       </nav>
-      <main>
+      <main >
         <h1 className={heading}>
             {pageTitle}
             </h1>
-        {children}
+            {children}
       </main>
     </div>
   )

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Urbanist&display=swap');
+
 
 
 .container {
@@ -8,7 +10,7 @@
   
   .heading {
     color: rebeccapurple;
-    font-family: 'fjord one', sans-serif;
+    font-family: 'Urbanist', sans-serif;
   }
   .nav-links {
     display: flex;
@@ -20,4 +22,8 @@
   }
   .nav-link-text {
     color: black;
+  }
+
+  .paragrpah-text {
+      font-family: 'Roboto', sans-serif;
   }
